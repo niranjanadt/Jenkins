@@ -7,3 +7,12 @@ Checking JOB2
 Checking Job3
 Checking Test_Project
 Finished at Sun Jul 14 14:09:30 UTC 2019. 80ms
+Started at Mon Jul 15 14:09:30 UTC 2019
+Checking build1
+Checking Build_Project
+Checking Deploy_project
+Checking fact
+Checking JOB2
+Checking Job3
+Checking Test_Project
+Finished at Mon Jul 15 14:09:30 UTC 2019. 59ms
