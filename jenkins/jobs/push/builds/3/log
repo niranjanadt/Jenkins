@@ -1,0 +1,58 @@
+Started by user [8mha:////4CcXzN2iPCGkB3W3ni1zf3unFijJ1Cxp3lqH6EDwTyJ2AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZu/dLi1CL9xJTczDwAfXVmD8AAAAA=[0mDTN
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/push
+using credential ffbdba02-9571-49fa-870a-1b07fdba2ce9
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/niranjanadt/Jenkins.git # timeout=10
+Fetching upstream changes from https://github.com/niranjanadt/Jenkins.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress https://github.com/niranjanadt/Jenkins.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision ac6385138995cf75f38b5a68fcfa684aacc7aea6 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ac6385138995cf75f38b5a68fcfa684aacc7aea6
+Commit message: "Jenkins back-up on 07/15/19"
+ > git rev-list --no-walk ac6385138995cf75f38b5a68fcfa684aacc7aea6 # timeout=10
+[push] $ /bin/bash /tmp/jenkins359852751643817604.sh
+
+We trust you have received the usual lecture from the local System
+Administrator. It usually boils down to these three things:
+
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+    #3) With great power comes great responsibility.
+
+sudo: no tty present and no askpass program specified
+/tmp/jenkins359852751643817604.sh: line 9: cd: /home/ec2-user/jenkins_bkup/Jenkins: Permission denied
+
+We trust you have received the usual lecture from the local System
+Administrator. It usually boils down to these three things:
+
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+    #3) With great power comes great responsibility.
+
+sudo: no tty present and no askpass program specified
+
+We trust you have received the usual lecture from the local System
+Administrator. It usually boils down to these three things:
+
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+    #3) With great power comes great responsibility.
+
+sudo: no tty present and no askpass program specified
+
+We trust you have received the usual lecture from the local System
+Administrator. It usually boils down to these three things:
+
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+    #3) With great power comes great responsibility.
+
+sudo: no tty present and no askpass program specified
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

@@ -9,6 +9,10 @@
       <ranges>15-21</ranges>
     </entry>
     <entry>
+      <string>push</string>
+      <ranges>1-8</ranges>
+    </entry>
+    <entry>
       <string>JOB2</string>
       <ranges>1-3</ranges>
     </entry>
