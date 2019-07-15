@@ -1,0 +1,59 @@
+Started by GitHub push by niranjanadt
+Running as SYSTEM
+Building remotely on [8mha:////4Bvf/SHvswn0NHwCy0UNipyQ164a5K7+aIlN62J7P9RJAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eCcxLJUQwAO88z1xQAAAA==[0mSlave1 in workspace /home/ec2-user/jenkins/workspace/Build_Project
+using credential ffbdba02-9571-49fa-870a-1b07fdba2ce9
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/niranjanadt/rep_ABC.git # timeout=10
+Fetching upstream changes from https://github.com/niranjanadt/rep_ABC.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress https://github.com/niranjanadt/rep_ABC.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 26b3d406e603bf9c3a05e1fa7a479e2635401202 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 26b3d406e603bf9c3a05e1fa7a479e2635401202
+Commit message: "Update fact.c"
+ > git rev-list --no-walk 3691181f160503f2f3acb7f8bb056f3b4a8db39a # timeout=10
+[Build_Project] $ /bin/sh -xe /tmp/jenkins2299145549013888957.sh
++ make
+gcc -c big3.c
+big3.c: In function ‘big3’:
+big3.c:6:5: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+     printf("Enter three different numbers:\n");
+     ^~~~~~
+big3.c:6:5: warning: incompatible implicit declaration of built-in function ‘printf’
+big3.c:6:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+big3.c:1:1:
++#include <stdio.h>
+ // #include <stdio.h>
+big3.c:6:5:
+     printf("Enter three different numbers:\n");
+     ^~~~~~
+big3.c:7:5: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
+     scanf("%lf %lf %lf", &n1, &n2, &n3);
+     ^~~~~
+big3.c:7:5: warning: incompatible implicit declaration of built-in function ‘scanf’
+big3.c:7:5: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+gcc -c fact.c
+fact.c: In function ‘fact’:
+fact.c:7:3: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+   printf("Enter a number to calculate its factorial\n");
+   ^~~~~~
+fact.c:7:3: warning: incompatible implicit declaration of built-in function ‘printf’
+fact.c:7:3: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+fact.c:1:1:
++#include <stdio.h>
+ // #include <stdio.h>
+fact.c:7:3:
+   printf("Enter a number to calculate its factorial\n");
+   ^~~~~~
+fact.c:8:3: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
+   scanf("%d", &n);
+   ^~~~~
+fact.c:8:3: warning: incompatible implicit declaration of built-in function ‘scanf’
+fact.c:8:3: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+gcc -o ABC.exe main.o big3.o fact.o
+Triggering a new build of [8mha:////4EckKw0XVfS1TXkllJAbbGJrwrTv3Z6xQgw04XXyHuntAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JH2X1IKc/Mr4gqL8rNTkEn0ANAOBFckAAAA=[0mDeploy_project
+Finished: SUCCESS

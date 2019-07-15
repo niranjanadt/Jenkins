@@ -1,0 +1,27 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-07-11 08:30:39.526 UTC</timestamp>
+  <md5sum>0aa5fe9e31e2613f63a1ef34a34f584c</md5sum>
+  <fileName>Credential id=ffbdba02-9571-49fa-870a-1b07fdba2ce9 name=jenkins_test1</fileName>
+  <usages>
+    <entry>
+      <string>Build_Project</string>
+      <ranges>15-21</ranges>
+    </entry>
+    <entry>
+      <string>JOB2</string>
+      <ranges>1-3</ranges>
+    </entry>
+    <entry>
+      <string>Job3</string>
+      <ranges>1-5</ranges>
+    </entry>
+  </usages>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet plugin="credentials@2.2.0">
+      <timestamp>1562923910214</timestamp>
+      <nodeName>Slave1</nodeName>
+      <timestamp0>1562923880842</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

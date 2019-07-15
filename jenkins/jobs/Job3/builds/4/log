@@ -1,0 +1,40 @@
+Started by an SCM change
+Running as SYSTEM
+Building remotely on [8mha:////4Bvf/SHvswn0NHwCy0UNipyQ164a5K7+aIlN62J7P9RJAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eCcxLJUQwAO88z1xQAAAA==[0mSlave1 in workspace /home/ec2-user/jenkins/workspace/Job3
+using credential ffbdba02-9571-49fa-870a-1b07fdba2ce9
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/niranjanadt/rep_ABC.git # timeout=10
+Fetching upstream changes from https://github.com/niranjanadt/rep_ABC.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --progress https://github.com/niranjanadt/rep_ABC.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 30124433116e3a11297cc44a6639143e4f1ea1dd (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 30124433116e3a11297cc44a6639143e4f1ea1dd
+Commit message: "Update big3.c"
+ > git rev-list --no-walk 3691181f160503f2f3acb7f8bb056f3b4a8db39a # timeout=10
+[Job3] $ /bin/sh -xe /tmp/jenkins4951700195290189875.sh
++ make
+gcc -c big3.c
+big3.c: In function ‘big3’:
+big3.c:6:5: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+     printf("Enter three different numbers:\n");
+     ^~~~~~
+big3.c:6:5: warning: incompatible implicit declaration of built-in function ‘printf’
+big3.c:6:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+big3.c:1:1:
++#include <stdio.h>
+ // #include <stdio.h>
+big3.c:6:5:
+     printf("Enter three different numbers:\n");
+     ^~~~~~
+big3.c:7:5: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
+     scanf("%lf %lf %lf", &n1, &n2, &n3);
+     ^~~~~
+big3.c:7:5: warning: incompatible implicit declaration of built-in function ‘scanf’
+big3.c:7:5: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+gcc -o ABC.exe main.o big3.o fact.o
+Finished: SUCCESS

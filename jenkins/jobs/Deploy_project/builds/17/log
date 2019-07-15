@@ -1,0 +1,15 @@
+Started by upstream project "[8mha:////4ELUh0yLJEff2mt2cPe2FidvmV8hQovHDAF4HG7XWlgRAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JH2n0syclPiAovys1OQSfQCbVVmLyAAAAA==[0mBuild_Project" build number [8mha:////4OItdXtV6YQNXCtVztPFKJP4W7gMsEsTa9Yr+nXBlasSAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZR/az8JH2n0syclPiAovys1OQSfUNzAC74JybKAAAA[0m17
+originally caused by:
+ Started by user [8mha:////4CcXzN2iPCGkB3W3ni1zf3unFijJ1Cxp3lqH6EDwTyJ2AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZu/dLi1CL9xJTczDwAfXVmD8AAAAA=[0mDTN
+Running as SYSTEM
+Building remotely on [8mha:////4Bvf/SHvswn0NHwCy0UNipyQ164a5K7+aIlN62J7P9RJAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eCcxLJUQwAO88z1xQAAAA==[0mSlave1 in workspace /home/ec2-user/jenkins/workspace/Deploy_project
+[Deploy_project] $ /bin/sh -xe /tmp/jenkins5917443907232723093.sh
++ scp -r /home/ec2-user/jenkins/workspace/Build_Project ec2-user@172.31.32.19:/home/ec2-user/deploy_build
+scp: /home/ec2-user/deploy_build/Build_Project/.git/objects/36/91181f160503f2f3acb7f8bb056f3b4a8db39a: Permission denied
+scp: /home/ec2-user/deploy_build/Build_Project/.git/objects/b7/a99b8fcb901a7b49a78a8aae1333bb49822e53: Permission denied
+scp: /home/ec2-user/deploy_build/Build_Project/.git/objects/0e/2b5af5a191075308cea6005979d84de07fd3e2: Permission denied
+scp: /home/ec2-user/deploy_build/Build_Project/.git/objects/7d/ab0af1131f0db6e524ee794921285ed1151969: Permission denied
+scp: /home/ec2-user/deploy_build/Build_Project/.git/objects/c6/988dcc509453ca6539955218d9df4ea539568d: Permission denied
+scp: /home/ec2-user/deploy_build/Build_Project/.git/objects/bd/f17505d3e09ed0406e1bde2d28b8e5b8f7c971: Permission denied
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

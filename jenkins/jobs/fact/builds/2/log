@@ -1,0 +1,9 @@
+Started by user [8mha:////4CcXzN2iPCGkB3W3ni1zf3unFijJ1Cxp3lqH6EDwTyJ2AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZu/dLi1CL9xJTczDwAfXVmD8AAAAA=[0mDTN
+Running as SYSTEM
+Building remotely on [8mha:////4Bvf/SHvswn0NHwCy0UNipyQ164a5K7+aIlN62J7P9RJAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eCcxLJUQwAO88z1xQAAAA==[0mSlave1 in workspace /home/ec2-user/jenkins/workspace/fact
+[fact] $ /bin/sh -xe /tmp/jenkins988306274499256519.sh
++ cd /home/ec2-user/dtscript
++ ./fact.sh
+Pass only 1 Argument
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

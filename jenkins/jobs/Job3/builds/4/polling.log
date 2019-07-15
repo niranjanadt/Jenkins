@@ -1,0 +1,11 @@
+Started on Jul 13, 2019 5:05:00 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision 3691181f160503f2f3acb7f8bb056f3b4a8db39a (refs/remotes/origin/master)
+using credential ffbdba02-9571-49fa-870a-1b07fdba2ce9
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git ls-remote -h https://github.com/niranjanadt/rep_ABC.git # timeout=10
+Found 1 remote heads on https://github.com/niranjanadt/rep_ABC.git
+[poll] Latest remote head revision on refs/heads/master is: 30124433116e3a11297cc44a6639143e4f1ea1dd
+Done. Took 0.22 sec
+Changes found

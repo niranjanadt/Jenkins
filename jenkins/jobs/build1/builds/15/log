@@ -1,0 +1,22 @@
+Started by user [8mha:////4HlRsavDqx0djsm1kdqF/0qTy0NTGaRBqd+qw0j6IkM1AAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZO/dLi1CL9xKRkAGDVhlq+AAAA[0mABC
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/build1
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/niranjanadt/rep_ABC.git # timeout=10
+Fetching upstream changes from https://github.com/niranjanadt/rep_ABC.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/niranjanadt/rep_ABC.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 3691181f160503f2f3acb7f8bb056f3b4a8db39a (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 3691181f160503f2f3acb7f8bb056f3b4a8db39a
+Commit message: "Only C files and make files"
+ > git rev-list --no-walk 3691181f160503f2f3acb7f8bb056f3b4a8db39a # timeout=10
+[build1] $ /bin/sh -xe /tmp/jenkins2625423412826208626.sh
++ cd /var/lib/jenkins/workspace/build1
++ make
+make: 'ABC.exe' is up to date.
+Finished: SUCCESS

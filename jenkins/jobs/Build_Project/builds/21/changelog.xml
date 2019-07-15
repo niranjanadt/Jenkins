@@ -1,0 +1,22 @@
+commit 26b3d406e603bf9c3a05e1fa7a479e2635401202
+tree 74b2c5efe2104537b3bf221a4708764b28fd3606
+parent 30124433116e3a11297cc44a6639143e4f1ea1dd
+author niranjanadt <52619700+niranjanadt@users.noreply.github.com> 2019-07-13 22:36:28 +0530
+committer GitHub <noreply@github.com> 2019-07-13 22:36:28 +0530
+
+    Update fact.c
+
+
+
+:100644 100644 7dab0af1131f0db6e524ee794921285ed1151969 86aa3282a3c121c4290eaa357dd9a3a2cbb38a3a M	fact.c
+commit 30124433116e3a11297cc44a6639143e4f1ea1dd
+tree 02209461004bfe78b919bee9cc7f722d04b761e4
+parent 3691181f160503f2f3acb7f8bb056f3b4a8db39a
+author niranjanadt <52619700+niranjanadt@users.noreply.github.com> 2019-07-13 22:33:12 +0530
+committer GitHub <noreply@github.com> 2019-07-13 22:33:12 +0530
+
+    Update big3.c
+
+
+
+:100644 100644 0e2b5af5a191075308cea6005979d84de07fd3e2 ad7fea1e144a9899194ec81b83e7f79866054a58 M	big3.c

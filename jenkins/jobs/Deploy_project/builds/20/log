@@ -1,0 +1,9 @@
+Started by upstream project "[8mha:////4ELUh0yLJEff2mt2cPe2FidvmV8hQovHDAF4HG7XWlgRAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JH2n0syclPiAovys1OQSfQCbVVmLyAAAAA==[0mBuild_Project" build number [8mha:////4BhCGQie1riYLpJbisq9UdXOS4xm8vZIyycOCEdjvuLeAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZR/az8JH2n0syclPiAovys1OQSfSMDAE4+bpPKAAAA[0m20
+originally caused by:
+ Started by user [8mha:////4CcXzN2iPCGkB3W3ni1zf3unFijJ1Cxp3lqH6EDwTyJ2AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZu/dLi1CL9xJTczDwAfXVmD8AAAAA=[0mDTN
+Running as SYSTEM
+Building remotely on [8mha:////4Bvf/SHvswn0NHwCy0UNipyQ164a5K7+aIlN62J7P9RJAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eCcxLJUQwAO88z1xQAAAA==[0mSlave1 in workspace /home/ec2-user/jenkins/workspace/Deploy_project
+[Deploy_project] $ /bin/sh -xe /tmp/jenkins3120618682195608014.sh
++ scp /home/ec2-user/jenkins/workspace/Build_Project/ABC.exe ec2-user@172.31.32.19:/home/ec2-user/deploy_build/Build_ABC
+Triggering a new build of [8mha:////4AX0pFUHhL3sAEeoeSvSRs0OtmGp7CK04T7m/xPWcstBAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAweoBn6WflJ+iGpxSXxAUX5WanJJfoATraNt8cAAAA=[0mTest_Project
+Finished: SUCCESS

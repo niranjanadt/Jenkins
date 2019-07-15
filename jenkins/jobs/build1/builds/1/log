@@ -1,0 +1,71 @@
+Started by user [8mha:////4CcXzN2iPCGkB3W3ni1zf3unFijJ1Cxp3lqH6EDwTyJ2AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZu/dLi1CL9xJTczDwAfXVmD8AAAAA=[0mDTN
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/build1
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/niranjanadt/rep_ABC.git
+ > git init /var/lib/jenkins/workspace/build1 # timeout=10
+Fetching upstream changes from https://github.com/niranjanadt/rep_ABC.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/niranjanadt/rep_ABC.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/niranjanadt/rep_ABC.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/niranjanadt/rep_ABC.git # timeout=10
+Fetching upstream changes from https://github.com/niranjanadt/rep_ABC.git
+ > git fetch --tags --progress https://github.com/niranjanadt/rep_ABC.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 3691181f160503f2f3acb7f8bb056f3b4a8db39a (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 3691181f160503f2f3acb7f8bb056f3b4a8db39a
+Commit message: "Only C files and make files"
+First time build. Skipping changelog.
+[build1] $ /bin/sh -xe /tmp/jenkins6189128795106830145.sh
++ cd /var/lib/jenkins/workspace/build1
++ make
+gcc -c main.c
+main.c: In function ‘main’:
+main.c:3:1: warning: implicit declaration of function ‘big3’ [-Wimplicit-function-declaration]
+ big3();
+ ^~~~
+main.c:4:1: warning: implicit declaration of function ‘fact’ [-Wimplicit-function-declaration]
+ fact();
+ ^~~~
+gcc -c big3.c
+big3.c: In function ‘big3’:
+big3.c:6:5: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+     printf("Enter three different numbers:\n");
+     ^~~~~~
+big3.c:6:5: warning: incompatible implicit declaration of built-in function ‘printf’
+big3.c:6:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+big3.c:1:1:
++#include <stdio.h>
+ // #include <stdio.h>
+big3.c:6:5:
+     printf("Enter three different numbers:\n");
+     ^~~~~~
+big3.c:7:5: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
+     scanf("%lf %lf %lf", &n1, &n2, &n3);
+     ^~~~~
+big3.c:7:5: warning: incompatible implicit declaration of built-in function ‘scanf’
+big3.c:7:5: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+gcc -c fact.c
+fact.c: In function ‘fact’:
+fact.c:7:3: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+   printf("Enter a number to calculate its factorial\n");
+   ^~~~~~
+fact.c:7:3: warning: incompatible implicit declaration of built-in function ‘printf’
+fact.c:7:3: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+fact.c:1:1:
++#include <stdio.h>
+ // #include <stdio.h>
+fact.c:7:3:
+   printf("Enter a number to calculate its factorial\n");
+   ^~~~~~
+fact.c:8:3: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
+   scanf("%d", &n);
+   ^~~~~
+fact.c:8:3: warning: incompatible implicit declaration of built-in function ‘scanf’
+fact.c:8:3: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+gcc -o ABC.exe main.o big3.o fact.o
+Finished: SUCCESS

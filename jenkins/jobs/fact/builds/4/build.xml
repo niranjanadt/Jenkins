@@ -1,0 +1,27 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+  </actions>
+  <queueId>79</queueId>
+  <timestamp>1563015026111</timestamp>
+  <startTime>1563015026113</startTime>
+  <result>SUCCESS</result>
+  <duration>52</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn>Slave1</builtOn>
+  <workspace>/home/ec2-user/jenkins/workspace/fact</workspace>
+  <hudsonVersion>2.176.1</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>
